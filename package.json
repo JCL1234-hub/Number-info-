@@ -1,0 +1,24 @@
+{
+  "name": "number-info-api",
+  "version": "1.0.0",
+  "description": "Professional REST API for Phone Number Validation and Information",
+  "main": "api/number.js",
+  "scripts": {
+    "start": "node api/number.js",
+    "dev": "nodemon api/number.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.4",
+    "helmet": "^7.1.0",
+    "libphonenumber-js": "^1.10.49"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["api", "number", "validation", "vercel", "express"],
+  "author": "@app_code_craft",
+  "license": "MIT"
+}
